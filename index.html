@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="wrapper">
+            <div class="text-input">
+                <textarea class="from-text" placeholder="Enter the text here"></textarea>
+                <textarea class="to-text" placeholder="Translation here" readonly disabled></textarea>
+            </div>
+            <ul class="menu">
+                <li class="row-from">
+
+                    <!-- creating a drop down menu for diff languages -->
+                    <select>
+                    </select>
+                </li>
+
+                <!-- for exchnaging -->
+                <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+
+                <!-- part two of the translation  -->
+                <li class="row-to">
+                    <select></select>
+                </li>
+
+            </ul>
+        </div>
+
+        <button>Translate</button>
+    </div>
+    <script src="javascript/countries.js"></script>
+    <script src="javascript/script.js"></script>
+    
+</body>
+</html>
